@@ -40,7 +40,7 @@ void setup() {
 }
 
 void loop() {
-return;
+  
   EthernetClient client1 = server1.available();
 
   // when the client sends the first byte, say hello:
